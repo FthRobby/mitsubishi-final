@@ -1,0 +1,71 @@
+body {
+  z-index: 0;
+}
+
+#navbar-full .navbar {
+  border-radius: 0 !important;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+
+#menu-dropdown .navbar {
+  border-radius: 3px;
+}
+
+#pagination-row .pagination-container {
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+hr.daftar-mobil {
+  border-top: 1px solid white;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.wrap {
+  position: relative;
+  width: auto;
+  height: 2px;
+  background-color: #ddd;
+  margin: 0 auto;
+}
+
+.wrap span {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #ddd;
+  background-color: white;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.harga p {
+  font-size: 12px;
+}
