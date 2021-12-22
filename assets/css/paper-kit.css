@@ -4481,7 +4481,7 @@ License - nucleoapp.com/license/
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background: #ffffff;
+  background: #343a40 !important;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 }
 
@@ -4490,7 +4490,7 @@ License - nucleoapp.com/license/
   margin: 5px 0px;
   padding: 20px 15px;
   font-size: 14px;
-  color: #66615b;
+  color: #fff !important;
   text-transform: uppercase;
 }
 
